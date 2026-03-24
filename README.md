@@ -1,5 +1,5 @@
 # 🎮☁️ Kerit-Renew
-自动续期 Kerit 免费服务器，每 6 天定时运行。
+自动续期 Kerit 免费服务器，每 5 天定时运行。
 
 > ⚠️ Kerit 官网会对访问 IP 进行验证，GitHub Actions 的出口 IP 无法直接通过，因此必须配置代理。
 
