@@ -9,6 +9,7 @@
 | Secret 名 | 必填 | 说明 | 示例 |
 |---|---|---|---|
 | `KERIT_ACCOUNT` | ✅ 必填 | 🧾 Kerit 登录邮箱和 Gmail 应用密码，用英文逗号分隔 | `example@gmail.com,abcdabcdabcdabcd` |
+| `PRIVATE_REPO_TOKEN` | ✅ 必填 | 🔒 GitHub PAT（有私库读取权限） | `github_pat_xxxxxx` |
 | `GOST_PROXY` | ✅ 必填 | 🌐 Gost 代理地址 | `socks5://user:pass@1.2.3.4:1080` |
 | `TG_BOT` | 🔲 可选 | 📨 Telegram 推送，Chat ID 和 Bot Token 用英文逗号分隔 | `987654321,123456:AAFxxx` |
 
