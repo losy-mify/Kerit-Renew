@@ -62,7 +62,7 @@ jobs:
           GOST_PROXY: ${{ secrets.GOST_PROXY }}
           TG_BOT: ${{ secrets.TG_BOT }}
         run: |
-          xvfb-run --auto-servernum --server-args="-screen 0 1920x1080x24" python renew.py
+          xvfb-run --auto-servernum --server-args="-screen 0 1920x1080x24" python kerit_renew.py
 
       - name: 📸 上传截图
         if: always()
