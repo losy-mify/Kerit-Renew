@@ -18,7 +18,7 @@ jobs:
           path: private
 
       - name: 📂 移动脚本到工作目录
-        run: mv private/renew.py kerit_renew.py
+        run: mv private/kerit_renew.py kerit_renew.py
 
       - name: 🐍 设置 Python
         uses: actions/setup-python@v4
